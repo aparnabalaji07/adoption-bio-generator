@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adoption Bio Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Adoption Bio Generator</h1>
+      <p>
+        Enter a few details about the adoptable animal to get a cute adoption
+        bio!
+      </p>
+
+      <label>
+        Name
+        <input type="text" id="name" placeholder="Nila" />
+      </label>
+
+      <label>
+        Species
+        <input type="text" id="species" placeholder="Cat" />
+      </label>
+
+      <label>
+        Age
+        <input type="text" id="age" placeholder="2 years" />
+      </label>
+
+      <label>
+        Notes (temperament, likes, needs)
+        <textarea
+          id="notes"
+          placeholder="shy at first, loves sunny windowsills, good with kids, not other cats"
+        ></textarea>
+      </label>
+
+      <button id="generate">Write the bio</button>
+
+      <div id="result"></div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
